@@ -1,0 +1,41 @@
+version: 2
+
+seeds:
+  - name: raw_stores
+    description: Raw retail store master data loaded from the seed file.
+    columns:
+      - name: store_id
+        tests:
+          - not_null
+          - unique
+
+  - name: raw_products
+    description: Raw retail product master data loaded from the seed file.
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+
+  - name: raw_customers
+    description: Raw retail customer master data loaded from the seed file.
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+
+  - name: raw_sales_transactions
+    description: Raw retail sales transaction line-level data loaded from the seed file.
+    columns:
+      - name: order_line_id
+        tests:
+          - not_null
+          - unique
+
+  - name: raw_inventory_snapshots
+    description: Raw monthly inventory snapshot data loaded from the seed file.
+    columns:
+      - name: snapshot_date
+        tests:
+          - not_null
