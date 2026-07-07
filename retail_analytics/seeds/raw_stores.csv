@@ -1,0 +1,9 @@
+store_id,store_name,city,state,region
+ST001,Reliance Retail - Indiranagar,Bengaluru,Karnataka,South
+ST002,Reliance Retail - Whitefield,Bengaluru,Karnataka,South
+ST003,Reliance Retail - T. Nagar,Chennai,Tamil Nadu,South
+ST004,Reliance Retail - Hitech City,Hyderabad,Telangana,South
+ST005,Reliance Retail - Andheri,Mumbai,Maharashtra,West
+ST006,Reliance Retail - Viman Nagar,Pune,Maharashtra,West
+ST007,Reliance Retail - Salt Lake,Kolkata,West Bengal,East
+ST008,Reliance Retail - Connaught Place,New Delhi,Delhi,North

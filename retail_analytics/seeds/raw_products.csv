@@ -1,0 +1,101 @@
+product_id,product_name,category,standard_cost,list_price
+P0001,Nova Jeans 2,Fashion,847.82,11659.98
+P0002,UrbanNest Coffee 3,Grocery,4272.18,4439.42
+P0003,Nova Cookware 4,Home & Kitchen,17755.73,1480.11
+P0004,Nova Shampoo 1,Beauty & Personal Care,6637.28,21299.12
+P0005,Nova Smartphone 2,Electronics,16881.23,30115.42
+P0006,Aurelia Jeans 3,Fashion,6691.17,24810.77
+P0007,Nova Coffee 4,Grocery,22788.34,6831.74
+P0008,Aurelia Cookware 1,Home & Kitchen,10273.49,6656.82
+P0009,FreshKart Shampoo 2,Beauty & Personal Care,3156.09,16049.96
+P0010,FreshKart Smartphone 3,Electronics,25440.08,25415.93
+P0011,Nova Jeans 4,Fashion,21918.98,22591.15
+P0012,Aurelia Coffee 1,Grocery,2456.13,12419.51
+P0013,FreshKart Cookware 2,Home & Kitchen,17362.83,29636.33
+P0014,Nova Shampoo 3,Beauty & Personal Care,19871.77,32502.91
+P0015,Nova Smartphone 4,Electronics,25674.0,36412.34
+P0016,Aurelia Jeans 1,Fashion,8411.41,26753.39
+P0017,FreshKart Coffee 2,Grocery,4963.36,15018.08
+P0018,FreshKart Cookware 3,Home & Kitchen,21084.43,28756.47
+P0019,Nova Shampoo 4,Beauty & Personal Care,18313.02,7312.15
+P0020,UrbanNest Smartphone 1,Electronics,4985.73,16030.21
+P0021,UrbanNest Jeans 2,Fashion,20569.97,35423.35
+P0022,Nova Coffee 3,Grocery,6948.54,1493.4
+P0023,FreshKart Cookware 4,Home & Kitchen,12094.83,2919.99
+P0024,FreshKart Shampoo 1,Beauty & Personal Care,6457.53,21042.83
+P0025,Aurelia Smartphone 2,Electronics,4371.86,5993.53
+P0026,FreshKart Jeans 3,Fashion,22435.71,18079.96
+P0027,Aurelia Coffee 4,Grocery,10923.69,41888.08
+P0028,UrbanNest Cookware 1,Home & Kitchen,15334.84,3954.56
+P0029,Nova Shampoo 2,Beauty & Personal Care,25846.98,6546.41
+P0030,UrbanNest Smartphone 3,Electronics,23783.17,17817.39
+P0031,Nova Jeans 4,Fashion,11604.54,25087.93
+P0032,Aurelia Coffee 1,Grocery,15920.52,40789.63
+P0033,Nova Cookware 2,Home & Kitchen,20440.47,4943.99
+P0034,FreshKart Shampoo 3,Beauty & Personal Care,23081.1,14386.34
+P0035,FreshKart Smartphone 4,Electronics,13099.48,19138.34
+P0036,FreshKart Jeans 1,Fashion,29159.45,32038.12
+P0037,Nova Coffee 2,Grocery,26128.51,12639.91
+P0038,UrbanNest Cookware 3,Home & Kitchen,4669.89,32061.08
+P0039,Nova Shampoo 4,Beauty & Personal Care,18008.44,20598.15
+P0040,Nova Smartphone 1,Electronics,27880.05,36924.51
+P0041,FreshKart Jeans 2,Fashion,7259.62,10230.48
+P0042,Nova Coffee 3,Grocery,2661.04,20488.7
+P0043,Nova Cookware 4,Home & Kitchen,29341.74,22443.75
+P0044,UrbanNest Shampoo 1,Beauty & Personal Care,3938.9,20040.57
+P0045,UrbanNest Smartphone 2,Electronics,8025.19,36661.32
+P0046,Aurelia Jeans 3,Fashion,28934.45,39025.03
+P0047,UrbanNest Coffee 4,Grocery,21417.17,16847.83
+P0048,FreshKart Cookware 1,Home & Kitchen,13199.19,21810.55
+P0049,Nova Shampoo 2,Beauty & Personal Care,7512.38,2829.48
+P0050,Nova Smartphone 3,Electronics,17690.43,9780.3
+P0051,UrbanNest Jeans 4,Fashion,315.01,29773.14
+P0052,Nova Coffee 1,Grocery,6945.36,38041.83
+P0053,FreshKart Cookware 2,Home & Kitchen,2218.63,10110.49
+P0054,Aurelia Shampoo 3,Beauty & Personal Care,6505.68,5687.25
+P0055,Aurelia Smartphone 4,Electronics,7365.62,19943.92
+P0056,Aurelia Jeans 1,Fashion,5793.26,4206.55
+P0057,Aurelia Coffee 2,Grocery,10693.5,17354.63
+P0058,Nova Cookware 3,Home & Kitchen,20233.6,41337.31
+P0059,Nova Shampoo 4,Beauty & Personal Care,1912.32,30625.74
+P0060,Nova Smartphone 1,Electronics,7534.82,8110.24
+P0061,Aurelia Jeans 2,Fashion,4291.45,7828.97
+P0062,Aurelia Coffee 3,Grocery,7569.21,38788.67
+P0063,Aurelia Cookware 4,Home & Kitchen,24259.87,35972.21
+P0064,Nova Shampoo 1,Beauty & Personal Care,1612.59,41969.97
+P0065,Nova Smartphone 2,Electronics,29072.99,38918.46
+P0066,UrbanNest Jeans 3,Fashion,5072.7,20474.08
+P0067,UrbanNest Coffee 4,Grocery,25953.05,37917.23
+P0068,UrbanNest Cookware 1,Home & Kitchen,11431.3,41385.18
+P0069,FreshKart Shampoo 2,Beauty & Personal Care,27802.89,33007.66
+P0070,FreshKart Smartphone 3,Electronics,12747.92,40213.74
+P0071,Aurelia Jeans 4,Fashion,4728.43,12567.22
+P0072,Nova Coffee 1,Grocery,17417.49,22840.87
+P0073,FreshKart Cookware 2,Home & Kitchen,1809.24,24597.83
+P0074,UrbanNest Shampoo 3,Beauty & Personal Care,1800.7,21402.62
+P0075,UrbanNest Smartphone 4,Electronics,2148.79,2994.16
+P0076,UrbanNest Jeans 1,Fashion,12172.89,39555.8
+P0077,UrbanNest Coffee 2,Grocery,17409.68,1813.19
+P0078,Nova Cookware 3,Home & Kitchen,12634.82,24576.69
+P0079,FreshKart Shampoo 4,Beauty & Personal Care,28047.72,8698.25
+P0080,FreshKart Smartphone 1,Electronics,7236.71,16713.64
+P0081,FreshKart Jeans 2,Fashion,13771.01,39029.42
+P0082,Nova Coffee 3,Grocery,378.53,26145.51
+P0083,Nova Cookware 4,Home & Kitchen,2290.5,9070.51
+P0084,FreshKart Shampoo 1,Beauty & Personal Care,4060.45,14756.02
+P0085,Nova Smartphone 2,Electronics,26390.18,15614.71
+P0086,UrbanNest Jeans 3,Fashion,13201.72,22883.67
+P0087,FreshKart Coffee 4,Grocery,18389.17,41465.7
+P0088,Nova Cookware 1,Home & Kitchen,20069.11,23360.11
+P0089,Nova Shampoo 2,Beauty & Personal Care,28174.01,5770.08
+P0090,Nova Smartphone 3,Electronics,26702.41,31220.14
+P0091,UrbanNest Jeans 4,Fashion,8243.21,25462.13
+P0092,FreshKart Coffee 1,Grocery,6187.56,26692.86
+P0093,FreshKart Cookware 2,Home & Kitchen,15211.73,10659.42
+P0094,Nova Shampoo 3,Beauty & Personal Care,2859.72,17876.65
+P0095,FreshKart Smartphone 4,Electronics,1418.19,14109.34
+P0096,UrbanNest Jeans 1,Fashion,19149.69,11112.83
+P0097,Aurelia Coffee 2,Grocery,16595.24,18048.7
+P0098,Nova Cookware 3,Home & Kitchen,3445.03,39700.38
+P0099,UrbanNest Shampoo 4,Beauty & Personal Care,16413.15,35077.8
+P0100,UrbanNest Smartphone 1,Electronics,12950.62,1900.54
