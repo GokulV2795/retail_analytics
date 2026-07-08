@@ -1,1 +1,1 @@
-select * from {{ ref('br_sales_transactions') }}
+select * from {{ ref('br_sales_transaction') }}
