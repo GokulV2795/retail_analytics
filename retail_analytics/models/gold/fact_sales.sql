@@ -1,4 +1,11 @@
--- models/gold/fct_sales.sql
+{{ 
+    config(
+        materialized='incremental',
+        incremental_strategy='merge',
+        unique_key='source_order_line_id',
+        on_schema_change='sync_all_columns'
+    ) 
+}}
 
 with sales_enriched as (
 
@@ -30,48 +37,60 @@ with sales_enriched as (
         on s.product_id = p.product_id
     left join {{ ref('sl_stores') }} st
         on s.store_id = st.store_id
+    where s.order_date is not null
+
+    {% if is_incremental() %}
+        and s.order_date >= (
+            select coalesce(max(order_date), cast('1900-01-01' as date))
+            from {{ this }}
+        )
+    {% endif %}
+
+),
+
+final as (
+
+    select
+        concat(
+            'OL',
+            lpad(
+                cast(
+                    row_number() over (
+                        order by
+                            order_date asc,
+                            order_id asc,
+                            source_order_line_id asc
+                    ) as string
+                ),
+                7,
+                '0'
+            )
+        ) as order_line_id,
+
+        source_order_line_id,
+        order_id,
+        order_date,
+        customer_id,
+        store_id,
+        product_id,
+        quantity,
+        unit_price,
+        discount_amount,
+        net_sales_amount,
+        cost_amount,
+        gross_profit_amount,
+        gross_margin_pct,
+        channel,
+        payment_method,
+        order_status,
+        is_returned,
+        product_name,
+        category,
+        store_name,
+        store_city,
+        store_region
+    from sales_enriched
 
 )
 
-select
-    concat(
-        'OL',
-        lpad(
-            cast(
-                row_number() over (
-                    order by
-                        order_date asc,
-                        order_id asc,
-                        source_order_line_id asc
-                ) as string
-            ),
-            7,
-            '0'
-        )
-    ) as order_line_id,
-
-    source_order_line_id,
-    order_id,
-    order_date,
-    customer_id,
-    store_id,
-    product_id,
-    quantity,
-    unit_price,
-    discount_amount,
-    net_sales_amount,
-    cost_amount,
-    gross_profit_amount,
-    gross_margin_pct,
-    channel,
-    payment_method,
-    order_status,
-    is_returned,
-    product_name,
-    category,
-    store_name,
-    store_city,
-    store_region
-from sales_enriched
-where order_date is not null
-order by order_date, order_line_id
+select * from final
